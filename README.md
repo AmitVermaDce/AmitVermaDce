@@ -1,46 +1,48 @@
-# AmitVermaDce
- With 9+ years of experience, I specialize in machine learning, deep learning, and Generative AI solutions, including prompt engineering and Retrieval-Augmented Generation (RAG) techniques. I have successfully developed and fine-tuned transformer models for text analytics and generative tasks, resulting in significant improvements in model accuracy and responsiveness. I have worked on various classical machine learning use cases involving classification and regression, with an in-depth understanding of the mathematical concepts behind each classical ML algorithm, which helps me apply established techniques to solve real-world problems.
+# Hi, I'm Amit Verma 👋
 
-In the AWS cloud, I leverage Amazon Bedrock to integrate foundation models into my applications, supporting tasks such as natural language understanding, text analytics and image generation. By utilizing Bedrock's managed infrastructure for foundation models, I streamline workflows involving large language models, efficiently handling tasks like text summarization, content generation, and sentiment analysis. Bedrock allows me to seamlessly deploy and scale these models, optimizing both cost and performance for generative applications. This integration enables me to deliver scalable, high-performance AI solutions on AWS.
+**Lead Data Scientist @ Optum (UHG)** · Building production GenAI systems on Azure & AWS · Nearly 12 years shipping ML that actually works
 
-My expertise also extends to big data technologies such as Hadoop, Oozie, Spark, YARN, Nifi, HBase, and Hive, enabling me to effectively manage and process large-scale datasets. I have worked on different connectors (scripts) to perform various ingestion-related tasks, including cleaning and enrichment modules, which carry out the ELT process—extracting, loading, and transforming data into optimized formats—ensuring seamless data integration and processing. Additionally, I have solid development experience in building web applications with Python frameworks, and I am familiar with tools such as Spotfire and QlikSense.
+---
 
-### Key skills
-Machine Learning & Deep Learning: Expertise in developing and fine-tuning machine learning and deep learning models. Experience with classical machine learning use cases, focusing on classification and regression tasks.
-Generative AI: Proficient in designing and developing advanced Generative AI solutions, leveraging prompt engineering techniques and implementing Retrieval-Augmented Generation (RAG) to enhance model outputs with real-time, contextually relevant data. Skilled in fine-tuning large language models (LLMs) for tasks such as text generation, summarization, and multi-turn conversations, resulting in more accurate and responsive AI-driven applications.
-Cloud: Amazon Bedrock and Sagemaker, GCP Cloud Digital Leader & Vertex AI
-Natural Language Processing (NLP): Skilled in using transformer-based models for text analytics and generative tasks.
-Big Data Technologies: Proficient in technologies such as Hadoop, Oozie, Spark, YARN, Nifi, HBase, Hive for managing and processing large-scale datasets.
-Data Engineering: Worked on different connectors (scripts) for ingestion-related tasks. Knowledge of the ELT process (Extract, Load, Transform) for data optimization.
-Cloud: AWS Bedrock and Sagemaker
-Web Development: Good development experience in building web applications and APIs using Python frameworks.
-Knowledge of Dockers and Kubernetes for deploying and managing applications in a containerized environment.
-Familiarity with Data Visualization Tools such as Tableau, Spotfire and QlikSense.
-Collaboration Tools: Experience with tools like JIRA for project management and team communication.
-### Publications:
--  [Fuzzy C-means with non-extensive entropy regularization](https://ieeexplore.ieee.org/document/7091464#Heading)
+## 🔭 What I'm building now
 
-### Updates:
-- I'm currently working as a Lead Data Scientist cum Engineer at Orange Business Services
+- **Agentic AI for call-center intelligence** — multi-agent systems with LlamaIndex that diagnose avoidable call transfers and generate self-service workflows
+- **Large-scale NER pipelines** — processing ~250k call transcripts per run using Azure OpenAI (GPT-4o mini) + Snowflake
+- **Time-series forecasting at scale** — ARIMA/SARIMAX models automated into monthly capacity planning
 
+## 🧠 What I'm good at
 
-### Find me Around
-- [LinkedIn](https://github.com/AmitVermaDce)
-- Mail: amitverma.dce@gmail.com 
+| Area | What that means in practice |
+|------|----------------------------|
+| **GenAI & Agents** | RAG architectures, prompt engineering, LlamaIndex/LangChain multi-agent systems, LLM fine-tuning |
+| **Cloud AI** | Azure OpenAI (GPT-4o), AWS Bedrock, SageMaker, serverless inference |
+| **Data Engineering** | Snowflake, Spark, Kafka, ELT pipelines, async Python at scale |
+| **Classical ML** | Statsmodels forecasting, XGBoost, scikit-learn, transformer fine-tuning |
 
-### Language and Tools
-- Programming Language: Python (3. x version), Go Lang
-- Data Pre-processing: Pandas, NumPy, Scikit-Learn, SciPy, NLTK, Pytorch, OpenCV, Imbalanced-learn
-- Machine/Deep Learning Frameworks: Scikit-Learn, Pytorch, Transformers
-- Large Language Models: OpenAI, Llama 2 and Llama 3, Mistral, AI21 labs,  Stability AI, Anthropic, etc.
-- Cloud Gen AI Frameworks: AWS Bedrock with foundation models - Anthropic, Cohere,  AI21 Labs, Meta, Amazon(Titan, Titan Embedding, Titan Text G1 - express and lite), Amazon Q.
-- Cloud services: EC2, Lambda functions, S3 Bucket, GCP Vertex AI Platform, AutoML
-- Natural Language Processing: NLTK, Spacy, Transformers
-- Big Data Technologies: Apache Hadoop, Spark, Kafka, Nifi, Oozie, Hive
--Containerization and Orchestration: Docker and Kubernetes
--Development: Django, Rest-Framework, FastAPI
-- Databases: SQL, Hive
-- Data Modeling & Visualization: Matplotlib, Seaborn, Plotly, Spotfire, & QlikSense
-- Collaboration and Experiment Tracking: Jupyter Notebooks, Google Colab, Kaggle Kernel.
-- Integrated Development Environments: VS code, PyCharm, SQL Server Management Studio, GoLand, etc.
-- Miscellaneous: Git for version control, JIRA for Agile Software Development
+## 🛠️ Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![LlamaIndex](https://img.shields.io/badge/LlamaIndex-000000?style=flat&logo=llama&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+
+## 📌 Selected work
+
+| Project | What it does | Impact |
+|---------|-------------|--------|
+| **Drug NER Pipeline** | GPT-4o mini + Snowflake NER over 250k transcripts | 60–90 min per full run |
+| **Agentic Transfer Obviation** | Multi-agent LlamaIndex system for root-cause + self-service generation | 12% reduction in avoidable transfers in 2 months |
+| **Call Transfer Forecasting** | ARIMA/SARIMAX across 15 business segments | Automated into monthly reporting DB |
+| **Sankey Analytics App** | Snowflake Streamlit native app | Replaced third-party vendor tool |
+
+## 📫 Find me
+
+[LinkedIn](https://www.linkedin.com/in/amit-verma-240992) · [Email](mailto:amitverma.dce@gmail.com) · [GitHub](https://github.com/AmitVermaDce)
+
+---
+
+*"Build systems that learn, agents that reason, pipelines that don't break at 3am."*
