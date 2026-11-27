@@ -12,7 +12,7 @@ Across all of it, one thread: classical ML fundamentals (the math matters), prod
 
 ## 🔭 What I'm building now (Optum)
 
-- **Agentic AI for call-center intelligence** — multi-agent **LangChain** system that diagnoses avoidable call transfers, retrieves solutions from internal knowledge bases, and generates self-service scripts + agent-assist recommendations
+- **Agentic AI for call-center intelligence** — multi-agent **LangChain** system using **Azure OpenAI (GPT-4o)** that diagnoses avoidable call transfers, retrieves solutions from internal knowledge bases, and generates self-service scripts + agent-assist recommendations
 - **Large-scale NER pipeline on Azure** — processing ~250k call transcripts per run using **Anthropic Claude Sonnet** models on Azure, with async Python I/O and results written back to Snowflake
 - **Time-series forecasting at scale** — ARIMA/SARIMAX across 15 business segments, automated into monthly capacity planning
 
@@ -48,12 +48,19 @@ Across all of it, one thread: classical ML fundamentals (the math matters), prod
 
 | Project | What it does | Impact |
 |---------|-------------|--------|
-| **Agentic Transfer Obviation** (Optum) | Multi-agent **LangChain** system for root-cause + self-service generation | 12% fewer avoidable transfers in 2 months |
+| **Agentic Transfer Obviation** (Optum) | Multi-agent **LangChain** system on **Azure OpenAI (GPT-4o)** for root-cause + self-service generation | 12% fewer avoidable transfers in 2 months |
 | **Drug NER Pipeline** (Optum, Azure) | Claude Sonnet NER over 250k transcripts + Snowflake | 60–90 min per full run |
 | **Call Transfer Forecasting** (Optum) | ARIMA/SARIMAX across 15 segments | Automated into monthly reporting DB |
 | **Customer Experience NLP** (Agilent) | BERT sentiment, multilabel, summarization + Django/FastAPI | Three transformer models in production |
 | **Network Incident Prediction** (Orange) | ETL over historical logs + XGBoost classifier | 79% accuracy predicting issue types |
 | **Green Energy Forecasting** (IREDA) | ML models on Joint Meter Readings + Tableau reports | Depreciation and generation prediction |
+
+## 📄 Publications
+
+**Fuzzy C-means with non-extensive entropy regularization**
+*2015 IEEE International Conference on Signal Processing, Informatics, Communication and Energy Systems (SPICES)*, 19–21 Feb 2015.
+
+> Proposes a fuzzy c-means clustering variant with non-extensive entropy regularization (Gaussian gain) to handle singular problems in the maximum-entropy framework. The new objective function and update equations yield highly improved clustering accuracy over state-of-the-art methods on benchmark UCI datasets.
 
 ## 📫 Find me
 
